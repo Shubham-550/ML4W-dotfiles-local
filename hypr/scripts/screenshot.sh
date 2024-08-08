@@ -13,8 +13,8 @@
 # XDG_SCREENSHOTS_DIR="$HOME/Screenshots"
 
 prompt='Screenshot'
-mesg="DIR: /media/data1/Pictures/screenshots/"
-NAME="screenshot_$(date +%d-%m-%Y_%H:%M:%S).jpg"
+mesg="DIR: /media/data1/Pictures/screenshots"
+NAME="/media/data1/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H:%M:%S).png"
 export GRIMBLAST_EDITOR="$(cat ~/dotfiles/.settings/screenshot-editor.sh)"
 
 # Example for keybindings
@@ -93,7 +93,7 @@ timer_run() {
 ###
 
 ####
-# Chose Screenshot Type
+# Choose Screenshot Type
 # CMD
 type_screenshot_cmd() {
     rofi -dmenu -replace -config ~/dotfiles/rofi/config-screenshot.rasi -i -no-show-icons -l 3 -width 30 -p "Type of Screenshot"
