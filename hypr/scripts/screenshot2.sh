@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR="/media/data1/Pictures/screenshots/"
-NAME="screenshot_$(date +%Y-%m-%d_%H:%M:%S).png"
+NAME="screenshot_$(date +%Y-%m-%d_%H-%M-%S).png"
 
 # hyprshot -z -m region -o "/tmp" -f "$NAME" -s
 

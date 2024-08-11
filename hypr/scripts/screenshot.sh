@@ -14,7 +14,7 @@
 
 prompt='Screenshot'
 mesg="DIR: /media/data1/Pictures/screenshots"
-NAME="/media/data1/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H:%M:%S).png"
+NAME="/media/data1/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png"
 export GRIMBLAST_EDITOR="$(cat ~/dotfiles/.settings/screenshot-editor.sh)"
 
 # Example for keybindings
